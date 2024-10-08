@@ -1,0 +1,9 @@
+<library path="diffdrive_arduino">
+  <class name="diffdrive_arduino/DiffDriveArduinoHardware"
+         type="diffdrive_arduino::DiffDriveArduinoHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      A ros2_control system using a hardware interface with velocity command and position state interfaces. This repo serves as the starting point for creating a hardware interface for differential-drive mobile robots, allowing control of the robot's movement based on velocity commands while tracking its position feedback.
+    </description>
+  </class>
+</library>
